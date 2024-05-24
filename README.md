@@ -39,7 +39,7 @@ All variables necessary to run this project:
 - Create a postgres database
 - Connect to database
 - Set environment variables in .env file
-- Generate jwt secret
+- Generate jwt secret and add to .env file
 - Install dependencies
 
 ```sh
