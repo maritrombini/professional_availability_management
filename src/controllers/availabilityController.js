@@ -64,7 +64,7 @@ export const createAvailability = async (req, res) => {
       return res.status(400).json({ error: error.message });
     }
 
-    if (error.message.includes('Unauthorized to update this availability')) {
+    if (error.message.includes('Unauthorized to create this availability')) {
       return res.status(403).json({ error: error.message });
     }
 
